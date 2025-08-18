@@ -1,3 +1,15 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    list-style: 1.4;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(125, 13, 125, 0.647);
+}
+
+.survey-form {
+    background: var(--color-green);
+}
+
 fieldset {
     border: black 2px solid;
     display: block;
@@ -13,8 +25,7 @@ fieldset {
 label {
     display: flex;
     font-size: 18px;
-    font-family: sans-serif;
-    margin: 0.5rem;
+    margin-bottom: 0.5rem;
     align-items: center;
 }
 
@@ -30,4 +41,18 @@ label {
 
 .subj, .num, .mail, .nme {
     font-size: 25px;
+}
+
+#feedback {
+    width: 100%;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: var(--color-green);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
 }
